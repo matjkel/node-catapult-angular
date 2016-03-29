@@ -15,6 +15,10 @@ routes.get('/api/tags-example', function(req, res) {
   res.send(['node', 'express', 'angular'])
 });
 
+routes.post('/shreds', function(req, res) {
+  res.send(['data'])
+})
+
 if(process.env.NODE_ENV !== 'test') {
   //
   // The Catch-all Route

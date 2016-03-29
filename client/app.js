@@ -15,10 +15,16 @@ angular.module('myApp', [
             controller: 'MainCtrl'
         })
 
-        .state('about', {
-          url: '/about',
-          templateUrl: 'views/about.html',
-          controller: 'AboutCtrl'
+        .state('weather', {
+          url: '/weather',
+          templateUrl: 'views/weather.html',
+          controller: 'WeatherCtrl'
+        })
+
+        .state('shreds', {
+          url: '/shreds', 
+          templateUrl: 'views/shreds.html',  
+          controller: 'WeatherCtrl'
         });
         
 });
