@@ -26,6 +26,10 @@ a {
   float: right;
   padding: 10px;
 }
+.wglogo {
+  float: right;
+  margin: 10px;
+}
 
 .try {
   max-width: 60px;
@@ -52,9 +56,8 @@ a {
 }
 
 .sesh {
-  opacity: 0.4 ;
   float: right;
-  background-color: #dcdcdc;
+  background-color: rgba(205, 97, 102, 0.24);
   border-radius: 2px;
   padding-left: 10px;
   padding-top: 10px;
@@ -85,8 +88,7 @@ a {
 
 
 .jumbotron{
-	background-color: #dcdcdc;
-  opacity: 0.4 ;
+	background-color: rgba(205, 97, 102, 0.24);
 	text-align: center;
 	border-radius: 2px;
   height: 180px;
